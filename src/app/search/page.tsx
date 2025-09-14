@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "@/components/layout/header";
 import SearchResultSection from "@/components/search/SearchResultSection";
 import Top100GlobalSongs from "@/components/song/Top100GlobalSongs";
 import HorizontalNewReleasesSection from "@/components/search/HorizontalNewReleasesSection";
-import VerticalNavBar from "@/components/shared/VerticalNavBar";
 import BottomPlayerBar from "@/components/shared/BottomPlayerBar";
+import SideBar from "@/components/shared/SideBar";
 
 export default function Search() {
   return (
@@ -32,7 +31,7 @@ export default function Search() {
 
       {/* Vertical Navigation Sidebar */}
       <div className="fixed right-0 top-0 h-full z-10">
-        <VerticalNavBar />
+      <SideBar />
       </div>
 
       {/* Bottom Player Bar */}
