@@ -20,7 +20,7 @@ const SideBar = () => {
   ];
 
   return (
-    <div className="w-[90px] h-full bg-black flex flex-col items-center py-8">
+    <div className="w-[90px] h-full bg-[#0C0D0C] flex flex-col items-center py-8">
       <div className="flex flex-col space-y-8">
         {menuItems.map((item) => (
           <button

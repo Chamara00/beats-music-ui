@@ -7,8 +7,9 @@ import SearchBar from '@/components/shared/SearchBar';
 
 const Header = () => {
   return (
-    <div className="w-full h-[65px] max-w-[1438px] mx-auto mt-10">
-        <div className='flex flex-row items-center justify-between w-full h-full'>
+    <div className="w-full max-w-[1438px] mx-auto mt-10">
+        
+        <div className='flex flex-row items-center justify-between w-full h-[65px]'>
             <Image src={logo} alt="logo" />
             
             {/* Search Bar */}
